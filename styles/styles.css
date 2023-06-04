@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+:root {
+  --primary: #222222;
+  --pizzaGreen: #39b24a;
+  --pizzaRed: #fc200c;
+  --backGround: #e5e5e5;
+}
+
+* {
+  font-family: Roboto;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------- FLEX-BASED STYLES ------------------------- */
+.row-spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.column-spaced {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.center-aligned {
+  /* background-color: rgba(137, 43, 226, 0.472); */
+  display: flex;
+  align-items: center;
+}
+
+.end-justified {
+  /* background-color: rgba(43, 226, 116, 0.472); */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start-justified {
+  /* background-color: rgba(43, 226, 116, 0.472); */
+  display: flex;
+  justify-content: flex-start;
+}
+
+.center-justified {
+  display: flex;
+  justify-content: center;
+}
+
+.top-aligned {
+  display: flex;
+  align-items: flex-start;
+}
+.banner {
+  flex-grow: 0.2;
+}
+
+.nav-main {
+  flex-grow: 0.7;
+  font-size: 1.5vw;
+}
+.top-pizza-container {
+  height: 100%;
+}
+/* ------------------------- BASIC STYLING ------------------------- */
+
+.Header-Section {
+  background-color: var(--primary);
+  box-shadow: 0 1vh 7px rgba(0, 0, 0, 0.25);
+  height: 14vh;
+}
+
+.Footer-Section {
+  background-color: var(--primary);
+  height: 21vh;
+}
+
+.Title {
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+.nav-elem {
+  color: #f3f3f3;
+  text-decoration: none;
+  padding: 0 2%;
+}
+
+.roundedsquare {
+  border-radius: 1vw;
+  padding-left: 2vw;
+  padding-top: 2vh;
+}
+
+.container-mid {
+  width: 100%;
+  height: 100%;
+  padding: 0vh 0.3vw;
+}
+
+/* --------------- TYPOGRAPHY COLORS  ---------------  */
+
+.Part1 {
+  color: var(--pizzaGreen);
+}
+.Part2 {
+  color: white;
+}
+.Part3 {
+  color: var(--pizzaRed);
+}
+
+.nav1 {
+  width: 100%;
+}
+
+.pizza-img-logo {
+  height: 11.8vh;
+}
+.pizza-falling-img {
+  width: 9vw;
+}
+
+.middle {
+  padding: 5vh 2vw;
+  background-color: var(--backGround);
+  height: 65vh;
+}
+
+.envio {
+  background-image: url(../images/delivery-l.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.podio {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.top-pizzas {
+  font-size: 1.5vw;
+  padding: 12vh 3.5vw;
+}
+
+.top-pizzas p {
+  font-weight: 700;
+  padding: 0.4vh 0;
+}
+
+.img-podio-container {
+  padding: 11vh 3.5vw;
+}
+
+.top-title {
+  font-size: 2vw;
+  font-weight: 700;
+  padding-bottom: 3vh;
+}
